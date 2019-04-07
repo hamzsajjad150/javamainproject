@@ -1,0 +1,8 @@
+#login{
+-fx-background-image: url("a.png")  ;  
+-fx-background-size: stretch;
+}
+
+.label {
+  -fx-font: 14px Vivaldi;
+}
