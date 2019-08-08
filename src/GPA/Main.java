@@ -260,7 +260,7 @@ public class Main extends Application {
         System.out.println(editPane.txtCourseCredits.getText());
         course.setCourseName(editPane.txtCourseName.getText());
         course.setProffesor(editPane.txtProffesorName.getText());
-        course.setCredits(Integer.getInteger(editPane.txtCourseCredits.getText()));
+        //course.setCredits(Integer.getInteger(editPane.txtCourseCredits.getText()));
 
         courseList.add(course);
         courseList.writeRecord(course);
